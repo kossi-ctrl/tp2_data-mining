@@ -39,18 +39,6 @@ Au total : **3 387 documents**. Les en-têtes, signatures et citations des messa
 - **Le clustering hiérarchique** est plus lent, mais **stable** (toujours le même résultat), et son découpage est le plus proche des vraies catégories.
 - Toutes les méthodes retrouvent bien **le graphisme** et **l'espace**, mais **aucune ne sépare l'athéisme et la religion**, car ces textes utilisent le même vocabulaire.
 
-## ▶️ Lancer le notebook (avec Python)
-
-Testé avec **Python 3.14**.
-
-```bash
-git clone https://github.com/kossi-ctrl/tp2_data-mining.git
-cd tp2_data-mining
-pip install -r requirements.txt
-jupyter notebook
-```
-
-Ouvrir `tp2_data-mining.ipynb`, puis lancer toutes les cellules dans l'ordre (*Kernel → Restart & Run All*). Le jeu de données est téléchargé automatiquement au premier lancement (connexion Internet nécessaire).
 
 ## 🐳 Lancer avec Docker (sans installer Python)
 
